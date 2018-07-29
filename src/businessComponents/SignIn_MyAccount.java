@@ -25,8 +25,11 @@ public class SignIn_MyAccount {
 		Thread.sleep(4000);
 		//HomePage.;
 		LoginPage.txtbx_UserName(driver).sendKeys(sUserName);
+		Thread.sleep(2000);
 		LoginPage.txtbx_Password(driver).sendKeys(sPassword);
+		Thread.sleep(2000);
 		LoginPage.btn_LogIn(driver).click();
+		Thread.sleep(2000);
 		//LoginPage.UserName.sendKeys(sUserName);
 		//LoginPage.passWord.sendKeys(sPassword);
         //LoginPage.btnLogin.click();
